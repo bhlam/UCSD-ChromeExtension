@@ -1,16 +1,39 @@
 <!doctype html>
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>UCSD Popup</title>
     <style>
       body {
-        min-width: 357px;
-        overflow-x: hidden;
+            width: 400px;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            margin: 0 auto 20px auto;
+            background: #446bb3;
+
+            border-radius: 15px;
+
+            -moz-border-radius: 15px;
+
+            -webkit-border-radius: 15px;
+            min-width: 250px;
+            background-color: rgb(42,58,110);
+            overflow-x: hidden;
+        
+      }
+      h4{
+        display: UCSD Chrome;
+        font-size: 5em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-style: Arial;
+
       }
 
       img {
-        margin: 5px;
-        border: 2px solid black;
+        margin: 10px;
+        border: 2px solid blue;
         vertical-align: middle;
         width: 75px;
         height: 75px;
@@ -19,7 +42,8 @@
 
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
+      - Policy documentation[1] for details a
+      nd explanation.
       -
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
      -->
@@ -29,9 +53,9 @@
   <body>
     <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown">Dropdown Button</button><br>
     <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
-      <li><a href="#">This is a link</a></li>
-      <li><a href="#">This is another</a></li>
-      <li><a href="#">Yet another</a></li>
+      <li><a href="#">Class Schedule</a></li>
+      <li><a href="#">Dining Hall Hours</a></li>
+      <li><a href="#">Weekly Activities</a></li>
     </ul>
     <form id="query_form">
         Image Search:

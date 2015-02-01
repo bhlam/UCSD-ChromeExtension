@@ -9,7 +9,7 @@
  *
  * @type {string}
  */
-var QUERY = 'puppies';
+var QUERY = 'UCSD';
 
 var queryGenerator = {
   /**

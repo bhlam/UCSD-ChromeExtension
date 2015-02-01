@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
 
-    "name": "UCSD",
+    "name": "UCSD Chrome App",
     "description": "Get the access to everythig about UCSD easier",
     "version": "1.0",
 
     "permissions": [
-        "https://secure.flickr.com/"
+        "https://secure.flickr.com/search/?q=ucsd"
     ],
     "browser_action": {
         "default_icon": "ucsd_icon.png",
